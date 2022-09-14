@@ -1,6 +1,7 @@
 import Modal from 'react-modal'
 import logo from '../assests/logo.jpeg'
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function IconCard(props) {
 
@@ -37,7 +38,7 @@ subtitle.style.color='#f00';
         props.url ? (
             <div>
             <ul type='none'>
-            <li> <img src={props.url} alt='logo' /></li>
+            <li><img src={props.url} alt='logo' /><span>{props.tags[0]}</span><Link to='/'>Back</Link> </li>
             </ul>
             </div>
         ) : null
