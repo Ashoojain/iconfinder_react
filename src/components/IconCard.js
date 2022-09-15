@@ -37,10 +37,12 @@ subtitle.style.color='#f00';
      {
         props.url ? (
             <div>
-            <ul type='none'>
+            <ul  type='none'>
             <li><img src={props.url} alt='logo' /><span>{props.tags[0]}</span><Link to='/'>Back</Link> </li>
             </ul>
             </div>
+
+            
         ) : null
      }
      </div>

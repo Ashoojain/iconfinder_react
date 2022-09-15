@@ -91,7 +91,7 @@ function SearchPage() {
                 </div>
 
                 <div className='content'> 
-                  <h2> {iconName}</h2>
+                  <h2> {iconName} Icons</h2>
                
                   <div className='showIcons'>
                     {
